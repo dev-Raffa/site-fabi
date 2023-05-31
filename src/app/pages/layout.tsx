@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google';
 import StyledComponentsRegistry from '@/style/style-components/registry';
-import GlobalStyle from './style/global';
-import { Header, Main, Side, Footer } from './components/layout';
+import GlobalStyle from '../style/global';
+import { Header, Main, Side, Footer } from '../pages/layout/index';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
