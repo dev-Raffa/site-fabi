@@ -18,7 +18,8 @@ export default function Home() {
           width: '40%',
           alignItems: 'center',
           display: 'flex',
-          flexDirection: 'column'
+          flexDirection: 'column',
+          minWidth: '300px'
         }}
       >
         <h1>Fabiana Furacão</h1>
