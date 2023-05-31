@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google';
 import StyledComponentsRegistry from '@/style/style-components/registry';
 import GlobalStyle from '../style/global';
-import { Header, Main, Side, Footer } from '../pages/layout/index';
+import { Header, Main } from './layout/index';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
@@ -20,9 +20,7 @@ export default function RootLayout({
         <StyledComponentsRegistry>
           <GlobalStyle />
           <Header />
-          <Side />
           <Main>{children}</Main>
-          <Footer />
         </StyledComponentsRegistry>
       </body>
     </html>

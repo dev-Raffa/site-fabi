@@ -15,6 +15,8 @@ body {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background: rgb(238,174,202);
+  background: linear-gradient(176deg, rgba(255,0,241,1) 0%, rgba(251,247,248,1) 100%);;
 }
 `;
 
