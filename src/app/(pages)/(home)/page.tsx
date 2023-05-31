@@ -11,6 +11,7 @@ export default function Home() {
       height="100%"
       alignx="space-around"
       aligny="center"
+      wrap="wrap"
     >
       <section
         style={{
